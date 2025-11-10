@@ -1,0 +1,38 @@
+.barraNavegacao{
+    height: 100px;
+    background-color: #290A49;
+    color: #FF9A76;
+    font-weight: bold;
+}
+
+
+ul {
+  background-color: #1E1E1E; 
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px 20px;  
+  margin: 0;
+}
+
+/* Remove sublinhado e aplica cor branca nos links */
+ul a {
+  text-decoration: none;
+  color: white;  
+}
+
+/* Estilo dos itens da lista */
+ul li {
+  color: white;          
+  margin-right: 30px;    
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Efeito hover */
+ul li:hover {
+  color: #B775BF; 
+  cursor: pointer;
+}

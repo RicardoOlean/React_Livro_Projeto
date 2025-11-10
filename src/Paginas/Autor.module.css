@@ -1,0 +1,45 @@
+.container {
+    height: 80vh;
+    background-color: #1A0F33;
+    width: 100vw;
+
+}
+
+
+
+.autorImg {
+    display: block;
+    position: relative;
+    left: 0;
+    margin-right: auto;
+    margin-left: 0;
+    width: 300px;
+    height: 0 500px;
+
+}
+
+.nome {
+    color: brown;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    width: 300px;
+    height: 0 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2 {
+    color: blue;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.p {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
