@@ -1,8 +1,6 @@
 .container {
     height: 80vh;
-    background-color: #1A0F33;
-    width: 100vw;
-
+    background-color: #290A49;
 }
 
 
@@ -41,5 +39,6 @@
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    color: #fff
 }
 

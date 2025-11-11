@@ -3,7 +3,7 @@ import autor from "../assets/imagens/autor.jpg";
 
 export function Autor(){
     return(
-        <main>
+        <main className={estilo.container}>
             <h1 className={estilo.nome}>Yukinobu Tatsu</h1>
             <img  src={autor} className={estilo.autorImg} alt="" />
             <br/>

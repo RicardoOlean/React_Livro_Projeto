@@ -12,9 +12,13 @@
 /* #0E2DA1 #F4E60A #336837 #290A49  #7D0D09*/
 
 .container {
-    height: 80vh;
     background-color: #290A49;
-    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
 }
 
 .titulo {
@@ -40,18 +44,28 @@
 }
 
 .sinopse {
+    margin: 0 auto; 
+    padding: 20px;      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 1200px;
+    text-align: justify;
+    color: #FFFF
+    
+    
+}
+
+
+
+.tema{
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 500px;
     text-align: justify;
-    color: #FFFF
-}
-
-.container2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    padding: 40px;
+    color: #FFFF;
+    border-radius: 10px;
+    background-color: #222;  /* Cor de fundo */     
 }

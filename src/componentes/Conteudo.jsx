@@ -6,7 +6,7 @@ export function Conteudo(){
     <main className={estilo.container}>
         <h1 className={estilo.titulo}>ダンダダン</h1>
         <img src={capa} className={estilo.img}  alt="" /> 
-        {/* <p className={estilo.sinopse}>Sinopse:
+        <p className={estilo.sinopse}>Sinopse:
 
 Dandadan acompanha a história de Momo Ayase, uma garota do ensino médio que acredita em fantasmas mas não em alienígenas, e Ken Takakura (apelidado de Okarun), seu colega tímido e nerd que acredita em alienígenas, mas acha que fantasmas não existem.
 
@@ -22,10 +22,10 @@ Após esse encontro com o sobrenatural e o alienígena, Momo desperta poderes ps
 
 Juntos, eles formam uma dupla improvável que enfrenta seres bizarros, demônios, alienígenas, e outras ameaças, enquanto vivem situações hilárias, emocionantes e às vezes até românticas.
 </p>
-<p>Temas e Estilo:
+<p className={estilo.tema}>Temas e Estilo:
 
 O mangá mistura terror, comédia, romance e ficção científica, com arte extremamente detalhada e dinâmica. O ritmo é rápido e cheio de reviravoltas, lembrando obras como Chainsaw Man, mas com um toque mais leve e divertido.
-    </p> */}
+    </p>
     </main>
     )
 }
